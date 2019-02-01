@@ -45,3 +45,20 @@ questions - É a tabela que armazenar as perguntas que foram feitas aos alunos.
 alternatives - É a tabela que armazenar as alternativas para as perguntas que foram feitas aos alunos.
 
 answers - É a tabela que armazenar as respostas de cada aluno para cada pergunta.
+
+## Instruções de instalação
+1. Entre na pasta "api" e execute:
+```
+composer install
+```
+2. Ao ser perguntado sobre adicionar permissões das pastas, responda com "Y";
+3. Entre na pasta "api/config", crie uma cópia do arquivo ".env.default" dentro da mesma pasta e renomeie para ".env";
+4. Modifique o arquivo ".env", adicionando nos valores de "DB_HOST", "DB_DATABASE", "DB_USERNAME" e "DB_PASSWORD" seus dados de banco:
+```PHP
+  // em config/.env
+  export DB_HOST="localhost" // informe seu host
+  export DB_DATABASE="my_app" // informe sua base de dados
+  export DB_USERNAME="my_app" // informe seu username
+  export DB_PASSWORD="secret" // informe sua senha
+```
+5. O endpoint solicitado encontra-se na rota "/api/v1/statistics/students/keep_studying.json".
