@@ -57,7 +57,8 @@ composer install
 ```PHP
   // em config/.env
   export DB_HOST="localhost" // informe seu host
-  export DB_DATABASE="my_app" // informe seu banco de dados
+  export DB_DATABASE="my_app" // informe sua base de dados
   export DB_USERNAME="my_app" // informe seu username
   export DB_PASSWORD="secret" // informe sua senha
 ```
+5. O endpoint solicitado encontra-se na rota "/api/v1/statistics/students/keep_studying.json".
