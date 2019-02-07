@@ -47,7 +47,7 @@ alternatives - É a tabela que armazenar as alternativas para as perguntas que f
 answers - É a tabela que armazenar as respostas de cada aluno para cada pergunta.
 
 ## Instruções de instalação
-A API foi desenvolvido com PHP e MYSQL, portanto, é necessário ter Apache, PHP e MYSQL instalados, além de ter instalado o Composer para baixar as dependências.
+A API foi desenvolvida com PHP e MYSQL, portanto, é necessário ter Apache, PHP e MYSQL instalados, além de ter instalado o Composer para baixar as dependências.
 Foi levado em consideração de que o banco já estaria criado e populado através do dump fornecido.
 1. Entre na pasta "api" e execute:
 ```
