@@ -47,6 +47,8 @@ alternatives - É a tabela que armazenar as alternativas para as perguntas que f
 answers - É a tabela que armazenar as respostas de cada aluno para cada pergunta.
 
 ## Instruções de instalação
+A API foi desenvolvido com PHP e MYSQL, portanto, é necessário ter Apache, PHP e MYSQL instalados, além de ter instalado o Composer para baixar as dependências.
+Foi levado em consideração de que o banco já estaria criado e populado através do dump fornecido.
 1. Entre na pasta "api" e execute:
 ```
 composer install
@@ -61,4 +63,4 @@ composer install
   export DB_USERNAME="my_app" // informe seu username
   export DB_PASSWORD="secret" // informe sua senha
 ```
-5. O endpoint solicitado encontra-se na rota "/api/v1/statistics/students/keep_studying.json".
+5. O endpoint solicitado encontra-se na rota "/api/v1/statistics/students/keep_studying.json" de onde o servidor estiver rodando (para facilitar a execução do teste front-end, clonar o projeto em /var/www/html/).
