@@ -63,4 +63,6 @@ composer install
   export DB_USERNAME="my_app" // informe seu username
   export DB_PASSWORD="secret" // informe sua senha
 ```
-5. O endpoint solicitado encontra-se na rota "/api/v1/statistics/students/keep_studying.json" de onde o servidor estiver rodando (para facilitar a execução do teste front-end, clonar o projeto em /var/www/html/).
+5. Entre na pasta "api";
+6. Se não estiver na pasta padrão (localhost/teste-backend/api), suba o servidor do CakePHP com o comando "bin/cake server";
+7. O endpoint solicitado encontra-se na rota "/v1/statistics/students/keep_studying.json" de onde o servidor estiver rodando.
